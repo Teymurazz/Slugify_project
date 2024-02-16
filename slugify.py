@@ -35,9 +35,6 @@ def convert_az_to_en_letters(_name: str):
             continue
         final_name += char # r
     return final_name
-# "iphone@@@@14"
-# import string
-# string.printable
 def generate_slug() -> str:
     name = get_announcement_name()
     new_name = simplify_name(name)
